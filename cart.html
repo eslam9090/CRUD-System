@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shoping</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Navbar  -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Sho <span>pp</span> ing</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav" id="log_reg_btn">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./login.html"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./register.html">Register</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav" id="cart_name_btn">
+            <li class="nav-item">
+              <a href="#" class="cart_contain">
+                <span class="cart_count"></span>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <span id="login_name">name</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar  -->
+    <!-- Start Search Section-->
+
+    <!-- Start Cart Products Section-->
+
+    <div class="container">
+      <div class="Bill_Clear">
+        <h3>Total Bill : <span id="totalBill"></span></h3>
+        <button>CheckOut</button>
+        <button id="clear_btn">Clear Cart</button>
+      </div>
+      <span id="NoProduct"></span>
+      <div class="row" id="productCartUI"></div>
+    </div>
+    <!-- End Cart Products Section-->
+    <script src="./JS/products.js"></script>
+    <script src="./JS/main.js"></script>
+    <script src="./JS/cart.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
