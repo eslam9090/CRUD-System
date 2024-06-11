@@ -5,7 +5,7 @@ products = [
     category: "Fashion",
     price: 100,
     quntity: 1,
-    image: "../Images/product1.jpg",
+    image: "./Images/product1.jpg",
     size: "large",
   },
   {
@@ -14,7 +14,7 @@ products = [
     category: "Phone Accessories",
     price: 120,
     quntity: 1,
-    image: "../Images/product2.jpg",
+    image: "./Images/product2.jpg",
     size: "large",
   },
   {
@@ -23,7 +23,7 @@ products = [
     category: "Men Accessories",
     price: 50,
     quntity: 1,
-    image: "../Images/product6.jpg",
+    image: "./Images/product6.jpg",
     size: "medium",
   },
   {
@@ -32,7 +32,7 @@ products = [
     category: "Fashion",
     price: 50,
     quntity: 1,
-    image: "../Images/product3.jpg",
+    image: "./Images/product3.jpg",
     size: "large",
   },
   {
@@ -41,7 +41,7 @@ products = [
     category: "Sport",
     price: 50,
     quntity: 1,
-    image: "../Images/product4.jpg",
+    image: "./Images/product4.jpg",
     size: "small",
   },
   {
@@ -50,7 +50,7 @@ products = [
     category: "Men Accessories",
     price: 50,
     quntity: 1,
-    image: "../Images/product5.jpg",
+    image: "./Images/product5.jpg",
     size: "small",
   },
   {
@@ -59,7 +59,7 @@ products = [
     category: "Bags",
     price: 50,
     quntity: 1,
-    image: "../Images/product7.jpg",
+    image: "./Images/product7.jpg",
     size: "medium",
   },
   {
@@ -68,7 +68,7 @@ products = [
     category: "Sport",
     price: 50,
     quntity: 1,
-    image: "../Images/product8.jpg",
+    image: "./Images/product8.jpg",
     size: "large",
   },
   {
@@ -77,7 +77,7 @@ products = [
     category: "Bags",
     price: 50,
     quntity: 1,
-    image: "../Images/product9.png",
+    image: "./Images/product9.png",
     size: "medium",
   },
 ];

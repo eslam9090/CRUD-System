@@ -19,7 +19,7 @@ login_btn.addEventListener("click", (e) => {
   }
   if (password.value === passwordValue && email.value === emailValue) {
     setTimeout(() => {
-      window.location = "../index.html";
+      window.location = "./index.html";
     }, 1500);
   }
 });

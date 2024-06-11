@@ -121,7 +121,7 @@ function addToCart(id) {
     // cartAddedProduct = [...cartAddedProduct, clickedProduct];
     localStorage.setItem("clickedProduct", JSON.stringify(cartAddedProduct));
   } else {
-    window.location = "../login.html";
+    window.location = "./login.html";
   }
   calc();
   updateQuantity(id);
@@ -150,7 +150,7 @@ function increment(id) {
     // cartAddedProduct = [...cartAddedProduct, clickedProduct];
     localStorage.setItem("clickedProduct", JSON.stringify(cartAddedProduct));
   } else {
-    window.location = "../login.html";
+    window.location = "./login.html";
   }
   calc();
   updateQuantity(id);
@@ -180,7 +180,7 @@ function decrement(id) {
     let filteredProduct = cartAddedProduct.filter((f) => f.quntity !== 0);
     localStorage.setItem("clickedProduct", JSON.stringify(filteredProduct));
   } else {
-    window.location = "../login.html";
+    window.location = "./login.html";
   }
   calc();
   updateQuantity(id);

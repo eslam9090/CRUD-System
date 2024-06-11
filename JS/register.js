@@ -53,7 +53,7 @@ reg_btn.addEventListener("click", (e) => {
     password.value
   ) {
     setTimeout(() => {
-      window.location = "../login.html";
+      window.location = "./login.html";
     }, 1500);
   }
 });

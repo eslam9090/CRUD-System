@@ -61,7 +61,7 @@ function increment(id) {
 
     localStorage.setItem("clickedProduct", JSON.stringify(cartProducts));
   } else {
-    window.location = "../login.html";
+    window.location = "./login.html";
   }
   calc();
   updateQuantity(id);
@@ -89,7 +89,7 @@ function decrement(id) {
 
     localStorage.setItem("clickedProduct", JSON.stringify(cartProducts));
   } else {
-    window.location = "../login.html";
+    window.location = "./login.html";
   }
   calc();
   updateQuantity(id);
