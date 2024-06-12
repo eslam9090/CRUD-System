@@ -44,8 +44,8 @@ select {
   font-weight: bold;
   color: var(--main-color) !important;
 }
-.navbar-brand span {
-  color: #4cb9e7;
+.navbar-brand  {
+  color: #4cb9e7 !important;
 }
 
 .nav-item a {
@@ -83,6 +83,9 @@ select {
   height: 16px;
   font-size: 10px;
   text-align: center;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end !important;
 }
 /**
 * !End Styling Navbar
